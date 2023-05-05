@@ -37,6 +37,14 @@ def calculate_average_salary():
 
 def get_employees_by_dept(department):
     result = []
+    if department=="Sales":
+        result=[employee_data[0],employee_data[5]]
+    elif department=="Marketing":
+        result=[employee_data[1],employee_data[2]]
+    elif department=="Engineering":
+        result=[employee_data[3],employee_data[4]]
+
+
 
     # Add your implementation from here
 
